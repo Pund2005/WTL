@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-num{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding: 20px; */
+    column-span: 4;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    /* text-align: center; */
+}
+
+.cal-box{
+    height: 100vh;
+    /* background-color: ; */
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cal{
+    width: 400px;
+    height: 400px;
+    background: rgb(102, 221, 181);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.num-box{
+    margin: 5px;
+    width: 70px;
+    padding: 20px;
+    /* font-size: 10px; */
+    margin: 5px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.ver-box{
+    /* width: 70px; */
+    margin: 5px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+
+
+}
+
+.hor-box{
+    margin: 5px;
+    /* width: 163px; */
+    padding-left: 75px;
+    padding-right: 78px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+}

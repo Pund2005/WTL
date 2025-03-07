@@ -1,0 +1,19 @@
+<p>home works!</p>
+<app-greeting [message]="homeMessage()"/>  
+
+<!-- passing hardcore data -->
+<!-- <app-greeting message="message is hardcore"/> -->
+
+
+<!-- Event handling -->
+<!-- call when any key press -->
+<!-- <input type="text" (keyup)="keyUpHandler()"> --> 
+
+<!-- call and tell which key is press -->
+<input type="text" (keyup)="keyUpHandler($event)"> 
+
+
+
+<!-- counter component -->
+
+<app-counter/>

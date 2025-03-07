@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+        function add(){
+            // document.write(parseInt(document.f1.n2.value) + parseInt(document.f1.n1.value))
+            let sum = (parseInt(document.f1.n2.value) + parseInt(document.f1.n1.value))
+
+            document.getElementById("p").innerHTML = (`<p> Addition is: ${sum} </p>`)
+            var sums
+            alert("Addition is : "+sum)
+        }
+    </script>
+    <style>
+        .main{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+
+        }
+        .field{
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" name="f1" id="form">
+        <div class="main">
+            <div class="field">
+                Enter 1st Number: <input type="number" name="n1"> <br> <br>
+                Enter 2nd Number: <input type="number" name="n2"> <br> <br>
+                <p id="p">Addition is: </p>
+                <button type="button" onclick="add()">Add</button> <br>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

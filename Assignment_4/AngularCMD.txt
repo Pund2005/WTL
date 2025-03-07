@@ -1,0 +1,9 @@
+ng generate component header # Creates inside the src/app folder
+ng g c header # short cut 
+
+#or (in a nested directory)
+ng g c components/header
+# inside the src/app/components folder
+
+ng g c home
+# creates the home component 
